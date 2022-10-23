@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "be360ef8c4a968a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "11555b086cfc4314",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce613ab4163896d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Naive Bayes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fabf2b15b84d69d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Naive Bayes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ca0782359f67411",
+    "type": "split",
+    "children": [
+      {
+        "id": "a726d5a2e2eda7e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "780af2d4b469721c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "31c14129b43bb06d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5bb31b4f889843a1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f7f7be992746dd9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a5820cd3df02eed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7d0e6e45a951ac6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Naive Bayes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3c6b7281ffa23168",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Naive Bayes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4e64a681c024de9e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d86dcea6927cea21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Naive Bayes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "ce613ab4163896d2",
+  "lastOpenFiles": [
+    "Excalidraw/NB_Example1_bis.excalidraw.md",
+    "Excalidraw/Drawing 2022-10-23 22.49.12.excalidraw.svg",
+    "Naive Bayes.md",
+    "Excalidraw/NB_Example_1.excalidraw.md",
+    "Excalidraw/NB_Example_1.excalidraw.svg"
+  ]
+}
