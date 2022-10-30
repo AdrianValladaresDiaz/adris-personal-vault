@@ -54,3 +54,45 @@ P(\neg C|Pos) = 0.099 / 0.108 = 0.916 \\
 $$
 ##### Direct formula application:
 ![[NB_Example1_bis.excalidraw.svg]]
+
+### Example 2
+
+We receive mails from two senders, Chris and Sara.  Suppose a prior prob. of 50% for each sender.  We also know the word distribution these senders usually use, like so:
+
+| Word | Chris Prob. | Sara Prob. |
+|---|:---:|:---:|
+| Love | 0.1 | 0.5 |
+| Deal | 0.8 | 0.2 |
+| Life | 0.1 | 0.3 |
+
+If we receive a mail that contains words Life and Deal, who is the most provable sender?
+$$\begin{gather}
+P(C) = 0.5\\
+P(S) = 0.5\\
+\\
+P(C|LD) = \frac{P(LD|C) \cdot P(C)}{P(LD)} = \frac{(0.8 \cdot 0.1) \cdot 0.5}{P(LD)} = \frac{0.04}{P(LD)} 
+\\\\
+P(S|LD) = \frac{P(LD|S) \cdot P(S)}{P(LD)} = \frac{(0.2 \cdot 0.3) \cdot 0.5}{P(LD)} = \frac{0.03}{P(LD)} 
+\end{gather}$$
+Without calculating P(LD) we already know Chris is more likely to send this email. But lets normalize to get the provability of each sender.![[NB_Example_2.svg]]
+$$\begin{gather}
+
+P(C|LD) = \frac{0.04}{P(LD)} = \frac{0.04}{0.04+0.03} = 0.571
+\\\\
+P(S|LD) = \frac{0.03}{P(LD)} = \frac{0.03}{0.04+0.03} = 0.428
+\end{gather}$$
+### Example 3
+
+Same as example 2, but with words "Love Deal"
+$$\begin{gather}
+P(C) = 0.5\\
+P(S) = 0.5\\
+\\
+P(C|LD) = \frac{P(LD|C) \cdot P(C)}{P(LD)} = \frac{(0.8 \cdot 0.1) \cdot 0.5}{P(LD)} = \frac{0.04}{P(LD)} 
+\\\\
+P(S|LD) = \frac{P(LD|S) \cdot P(S)}{P(LD)} = \frac{(0.2 \cdot 0.5) \cdot 0.5}{P(LD)} = \frac{0.05}{P(LD)} 
+\\\\
+P(C|LD) = \frac{0.04}{P(LD)} = \frac{0.04}{0.04+0.05} = 0.444
+\\\\
+P(S|LD) = \frac{0.03}{P(LD)} = \frac{0.05}{0.04+0.05} = 0.555
+\end{gather}$$
